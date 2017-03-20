@@ -1,0 +1,27 @@
+// Colors
+
+$color-primary: #00b2eb;
+$color-secondary: #a8d644;
+$light-grey: #cecdcc;
+$grey: #7e7e80;
+
+.color-primary {color: $color-primary !important;}
+.color-secondary {color: $color-secondary !important;}
+.light-grey {color: $light-grey !important;}
+.grey{color: $grey !important;}
+
+// Fonts
+
+$text-xs: 10px;
+$text-sm: 12px;
+$text-md: 14px;
+$text-lg: 16px;
+$text-xl: 20px;
+
+.text-sm {font-size: $text-sm !important;}
+.text-md {font-size: $text-md !important;}
+.text-lg {font-size: $text-lg !important;}
+
+.semi-bold {font-weight: 500;}
+
+.text-center{text-align: center;}

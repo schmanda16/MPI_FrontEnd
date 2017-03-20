@@ -1,0 +1,50 @@
+$whitespace-options:
+(
+    none: 0,
+    xs: 5px,
+    sm: 10px,
+    md: 15px,
+    lg: 30px,
+    xl: 60px
+);
+
+@each $key, $value in $whitespace-options {
+    .padding-#{$key}-top {
+        padding-top: #{$value} !important;
+    }
+    .padding-#{$key}-right {
+        padding-right: #{$value} !important;
+    }
+    .padding-#{$key}-bottom {
+        padding-bottom: #{$value} !important;
+    }
+    .padding-#{$key}-left {
+        padding-left: #{$value} !important;
+    }
+    .padding-#{$key} {
+        padding: #{$value} !important;
+    }
+    .margin-#{$key}-top {
+        margin-top: #{$value} !important;
+    }
+    .margin-#{$key}-right {
+        margin-right: #{$value} !important;
+    }
+    .margin-#{$key}-bottom {
+        margin-bottom: #{$value} !important;
+    }
+    .margin-#{$key}-left {
+        margin-left: #{$value} !important;
+    }
+    .margin-#{$key} {
+        margin: #{$value} !important;
+    }
+}
+.no-padding
+{
+    padding: 0 !important;
+}
+.no-margin
+{
+    margin: 0 !important;
+}
