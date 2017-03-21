@@ -1,11 +1,15 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <button id="hamburger" type="button" class="navbar-toggle collapsed margin-sm-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        </button>
+        <button id="search-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#search" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle search</span>
+        <span class="glyphicon glyphicon-search"></span>
         </button>
         <a class="navbar-brand padding-sm-top" href="#"><img src="images/MPI-logo.png"></a>
     </div>
@@ -55,12 +59,24 @@
         <li class="visible-xs collapse-button"><a href="#">Sign Up</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right hidden-xs">
-        <li><a href="#">Log In</a></li>
         <li class="padding-sm-top">
-            <button type="button" class="btn btn-default">
+            <div>
+                <span class="glyphicon glyphicon-search"></span>
+                <input placeholder="Search"></input>
+            </div>
+        </li>
+        <li><a href="#">Log In</a></li>
+        <li class="padding-xs-top">
+            <button type="button" class="btn btn-transparent">
                 Sign Up
             </button>
         </li>
+        </ul>
+    </div>
+    <div id="search" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav margin-none-top margin-none-bottom">
+            <li class="visible-xs"><input placeholder="Search MPI..."></input></li>
+            <li class="visible-xs collapse-button"><a href="#">Search</a></li>
         </ul>
     </div>
     </div>
