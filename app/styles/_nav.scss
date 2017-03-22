@@ -1,9 +1,13 @@
+nav {
+    font-family: 'MuseoSans-300';
+}
+
 .navbar-default {
-    background: white;
+    background: $white;
 }
 
 .navbar-right {
-    margin-right: 0px !important;
+    margin-right: 0px;
     div {
         border: solid 1px $light-grey;
         border-radius: 4px;
@@ -17,7 +21,7 @@
         padding: 5px;
         color: $light-grey;
         &:focus {
-            outline: none !important;
+            outline: none;
         }
     }
 }
@@ -26,9 +30,10 @@
     box-shadow: none;
 }
 
-.footer {
+footer {
+    font-family: 'MuseoSans-300';
     padding-top: 19px;
-    border-top: solid 5px $color-secondary !important;
+    border-top: solid 5px $brand-green;
 }
 
 @media (min-width: 1200px) {
@@ -43,7 +48,7 @@
 // Medium Screen
 @media (max-width: 1200px) {
     nav > .container {
-        width: 100% !important;
+        width: 100%;
     }
     .footer-logo {
         text-align: left;
@@ -63,10 +68,10 @@
 @media (max-width: 768px) {
     hr {
         margin: 0px;
-        border-top: solid 1px $extra-light-grey;
+        border-top: solid 1px $border-grey;
     }
     .icon-bar {
-        background-color: $light-grey !important;
+        background-color: $light-grey;
     }
     .navbar-header > button {
          &#hamburger {
@@ -85,7 +90,7 @@
         line-height: 20px;
 
         &:focus {
-            outline: none !important;
+            outline: none;
         }
     }
     .navbar-brand {
@@ -94,11 +99,13 @@
         margin-left: -50px;
         display: block;
     }
-    .collapse-button { 
-        background: $color-primary; 
-         > a {
-             color: white !important;
-         }
+    .navbar-nav > li { 
+        &.collapse-button {
+            background: $brand-blue; 
+            > a { 
+                color: $white;
+            }
+        }
     }
     .footer-logo {
         text-align: center;

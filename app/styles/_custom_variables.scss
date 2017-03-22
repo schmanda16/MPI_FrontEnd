@@ -1,28 +1,73 @@
-// Colors
+// ---------- Fonts ----------
+@font-face {
+    font-family: 'MuseoSans-300';
+    src: url('../fonts/Museo Sans/MuseoSans-300.otf') format('opentype');
+}
 
-$color-primary: #00b2eb;
-$color-secondary: #a8d644;
-$extra-light-grey:#eeeeee;
+@font-face {
+    font-family: 'MuseoSlab-500';
+    src: url('../fonts/Museo Slab/Museo_Slab_500.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MuseoSlab-300Italic';
+    src: url('../fonts/Museo Slab/Museo_Slab_300italic.otf') format('opentype');
+}
+
+$font-family-museo-sans:;
+$font-family-museo-slab:;
+
+// ---------- Colors ----------
+$brand-blue: #00adee;
+$brand-purple: #d271e4;
+$brand-green: #a8d644;
+$brand-red: #ff3530;
+$brand-orange: #ffdd00;
+$darkest-grey: #4a4a4a;
+$dark-grey: #7a7a7a;
+$grey: rgba(74, 74, 74, 0.6);
 $light-grey: #9b9b9b;
-$grey: #7a7a7a;
+$lightest-grey: #a5a5a5;
+$off-white: #f7f7f7;
+$white: #ffffff;
 
-.color-primary {color: $color-primary !important;}
-.color-secondary {color: $color-secondary !important;}
+$border-grey: rgba(231, 231, 231, 1);
+
+.brand-blue {color: $brand-blue !important;}
+.brand-purple {color: $brand-purple !important;}
+.brand-green {color: $brand-green !important;}
+.brand-red {color: $brand-red !important;}
+.brand-orange {color: $brand-orange !important;}
+.darkest-grey {color: $darkest-grey !important;}
+.dark-grey {color: $dark-grey !important;}
+.grey {color: $grey !important;}
 .light-grey {color: $light-grey !important;}
-.grey{color: $grey !important;}
+.lightest-grey {color: $lightest-grey !important;}
+.off-white {color: $off-white !important;}
+.white {color: $white !important;}
 
-// Fonts
+// ---------- Text ----------
+$text-title-lg: 48px;
+$text-title-md: 38px;
+$text-title-sm: 28px;
+$text-xl: 24px;
+$text-lg: 22px;
+$text-md: 18px;
+$text-sm: 16px;
+$text-xs: 14px;
+$text-xxs: 12px;
 
-$text-xs: 10px;
-$text-sm: 12px;
-$text-md: 14px;
-$text-lg: 16px;
-$text-xl: 20px;
-
-.text-sm {font-size: $text-sm !important;}
-.text-md {font-size: $text-md !important;}
+.text-title-lg {font-size: $text-title-lg !important;}
+.text-title-md {font-size: $text-title-md !important;}
+.text-title-sm {font-size: $text-title-sm !important;}
+.text-xl {font-size: $text-xl !important;}
 .text-lg {font-size: $text-lg !important;}
+.text-md {font-size: $text-md !important;}
+.text-sm {font-size: $text-sm !important;}
+.text-xs {font-size: $text-xs !important;}
+.text-xxs {font-size: $text-xxs !important;}
 
 .semi-bold {font-weight: 500;}
+.bold {font-weight: 700;}
 
 .text-center{text-align: center;}

@@ -1,20 +1,20 @@
 .btn-transparent {
-    color: $color-primary;
+    color: $brand-blue;
     background-color: transparent;
-    border: solid 2px $color-primary;
+    border: solid 2px $brand-blue;
     font-weight: 500;
 }
 
 .btn-primary {
-    color: white;
-    background-color: $color-primary;
-    border-color: $color-primary;
+    color: $white;
+    background-color: $brand-blue;
+    border-color: $brand-blue;
     font-weight: 500;
 }
 
 .btn-white {
-    color: $color-primary;
-    background-color: white;
-    border-color: white;
+    color: $brand-blue;
+    background-color: $white;
+    border-color: $white;
     font-weight: 500;
 }

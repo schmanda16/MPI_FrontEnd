@@ -1,6 +1,6 @@
 .panel {
     border-bottom-width: 3px;
-    border-bottom-color: $color-secondary;
+    border-bottom-color: $brand-green;
     border-radius: 1px;
 }
 
@@ -30,10 +30,10 @@
     position: absolute;
     left: 20px;
     top: 10px;
-    background: $color-secondary;
+    background: $brand-green;
     text-align: center;
     border-radius: 1px;
-    color: white;
+    color: $white;
     padding: 5px 10px;
     font-size: 14px;
 }
