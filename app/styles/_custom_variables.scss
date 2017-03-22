@@ -5,6 +5,16 @@
 }
 
 @font-face {
+    font-family: 'MuseoSans-500';
+    src: url('../fonts/Museo Sans/MuseoSans_500.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MuseoSans-700';
+    src: url('../fonts/Museo Sans/MuseoSans_700.otf') format('opentype');
+}
+
+@font-face {
     font-family: 'MuseoSlab-500';
     src: url('../fonts/Museo Slab/Museo_Slab_500.otf') format('opentype');
 }
@@ -67,7 +77,10 @@ $text-xxs: 12px;
 .text-xs {font-size: $text-xs !important;}
 .text-xxs {font-size: $text-xxs !important;}
 
-.semi-bold {font-weight: 500;}
-.bold {font-weight: 700;}
+$semi-bold: 500;
+$bold: 700;
+
+.semi-bold {font-weight: $semi-bold;}
+.bold {font-weight: $bold;}
 
 .text-center{text-align: center;}

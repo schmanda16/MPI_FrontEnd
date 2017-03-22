@@ -1,5 +1,22 @@
+header {
+    height: 130px;
+    background-color: $light-grey;
+}
+
+.nav-wrapper
+{
+    min-height: 52px;
+}
+
 nav {
     font-family: 'MuseoSans-300';
+    z-index: 10;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-default {
@@ -34,6 +51,14 @@ footer {
     font-family: 'MuseoSans-300';
     padding-top: 19px;
     border-top: solid 5px $brand-green;
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-category {
+    font-family: 'MuseoSans-700';
 }
 
 @media (min-width: 1200px) {
