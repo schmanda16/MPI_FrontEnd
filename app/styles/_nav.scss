@@ -136,5 +136,8 @@ footer {
     .footer-logo {
         text-align: center;
         padding-bottom: 25px;
+        img {
+            display: inline;
+        }
     }
 }
