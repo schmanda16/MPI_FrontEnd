@@ -29,9 +29,9 @@ nav {
     div {
         border: solid 1px $light-grey;
         border-radius: 4px;
+        overflow: hidden;
     }
-    span {
-        padding-left: 5px;
+    .glyphicon-search {
         color: $light-grey;
     }
     input {
@@ -41,6 +41,13 @@ nav {
         &:focus {
             outline: none;
         }
+    }
+    #profile-picture{
+        max-width: 40px;
+    }
+    .img-circle {
+        float: right;
+        max-width: 95%;
     }
 }
 
@@ -73,6 +80,9 @@ footer {
 
 // Medium Screen
 @media (max-width: 1200px) {
+    #profile-picture {
+        margin-left: 15px;
+    }
     nav > .container {
         width: 100%;
     }
