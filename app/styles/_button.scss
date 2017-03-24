@@ -1,8 +1,13 @@
 .btn-transparent {
     color: $brand-blue;
     background-color: transparent;
-    border: solid 2px $brand-blue;
-    font-weight: 500;
+    border: solid 1px $brand-blue;
+    font-weight: 800;
+
+    &:hover {
+        background: $brand-blue;
+        color: $white;
+    }
 }
 
 .btn-primary {
@@ -10,6 +15,11 @@
     background-color: $brand-blue;
     border-color: $brand-blue;
     font-weight: 500;
+
+    &:hover {
+        background: $brand-blue-hover;
+        border-color: $brand-blue-hover;
+    }
 }
 
 .btn-white {
