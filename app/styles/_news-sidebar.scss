@@ -1,0 +1,23 @@
+.news-sidebar {
+    background-color: $off-white;
+
+    img {
+        padding: 10px 0 10px 0;
+    }
+
+    .sidebar-category {
+        font-family: 'MuseoSans-700';
+        color: $light-grey;
+        font-size: $text-xxs;
+        text-transform: uppercase;
+        padding: 12px 0 0 10px;
+    }
+    .sidebar-title {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-md;
+        padding: 0 0 0 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
