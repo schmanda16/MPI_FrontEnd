@@ -36,6 +36,7 @@ $dark-grey: #7a7a7a;
 $grey: rgba(74, 74, 74, 0.6);
 $light-grey: #9b9b9b;
 $lightest-grey: #a5a5a5;
+$off-grey: #e7e7e7;
 $off-white: #f7f7f7;
 $white: #ffffff;
 
@@ -51,6 +52,7 @@ $border-grey: rgba(231, 231, 231, 1);
 .grey {color: $grey !important;}
 .light-grey {color: $light-grey !important;}
 .lightest-grey {color: $lightest-grey !important;}
+.off-grey {color: $off-grey !important;}
 .off-white {color: $off-white !important;}
 .white {color: $white !important;}
 
