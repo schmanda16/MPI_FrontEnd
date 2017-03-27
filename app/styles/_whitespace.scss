@@ -5,7 +5,8 @@ $whitespace-options:
     sm: 10px,
     md: 15px,
     lg: 30px,
-    xl: 60px
+    xl: 45px,
+    xxl: 60px
 );
 
 @each $key, $value in $whitespace-options {
