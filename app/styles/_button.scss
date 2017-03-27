@@ -1,4 +1,5 @@
 .btn-transparent {
+    font-family: 'MuseoSans-700';
     color: $brand-blue;
     background-color: transparent;
     border: solid 1px $brand-blue;
@@ -11,6 +12,7 @@
 }
 
 .btn-primary {
+    font-family: 'MuseoSans-700';
     color: $white;
     background-color: $brand-blue;
     border-color: $brand-blue;
@@ -23,8 +25,87 @@
 }
 
 .btn-white {
+    font-family: 'MuseoSans-700';
     color: $brand-blue;
     background-color: $white;
     border-color: $white;
     font-weight: 500;
+
+    &:hover {
+        color: $brand-blue-hover;
+    }
+}
+
+// -------------- Custom Checkboxes and Radio Buttons ----------------
+
+label {
+	display: inline;
+}
+
+.regular-checkbox {
+	display: none;
+}
+
+.regular-checkbox + label {
+	background-color: $white;
+	border: 1px solid $light-grey;
+	padding: 9px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-checkbox:checked + label {
+	background-color: $white;
+	border: 1px solid $light-grey;
+	color: $brand-blue;
+}
+
+.regular-checkbox:checked + label:after {
+	content: "\2713";
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: $brand-blue;
+}
+
+.tag {
+	font-family: 'MuseoSans-300';
+	width: 200px;
+	position: relative;
+	top: 5px;
+	display: block;
+	float: left;
+}
+
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	-webkit-appearance: none;
+	background-color: $white;
+	border: 1px solid $light-grey;
+	padding: 9px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-radio:checked + label:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: $brand-blue;
+	left: 3px;
+	font-size: 28px;
+}
+
+.regular-radio:checked + label {
+	background-color: $white;
+	color: $brand-blue;
+	border: 1px solid $light-grey;
 }

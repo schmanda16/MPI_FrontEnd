@@ -1,0 +1,80 @@
+.article {
+    font-family: 'MuseoSans-300';
+    font-size: $text-md;
+}
+.quote {
+    font-family: 'MuseoSlab-300Italic';
+    font-size: $text-title-sm;
+}
+
+@media (min-width: 768px){
+    h1 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-title-lg;
+    }
+
+    h2 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-title-md;
+    }
+
+    h3 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-title-sm;
+    }
+
+    h4 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-lg;
+    }
+
+    h5 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-md;
+    }
+
+    h6 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-sm;
+    }
+    .dashboard {
+        font-family: 'MuseoSans-300';
+        font-size: $text-sm;
+    }
+}
+
+@media (max-width: 768px){
+    h1 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-xl;
+    }
+
+    h2 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-lg;
+    }
+
+    h3 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-md;
+    }
+
+    h4 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-sm;
+    }
+
+    h5 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-xs;
+    }
+
+    h6 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-xxs;
+    }
+    .dashboard {
+        font-family: 'MuseoSans-300';
+        font-size: $text-xs;
+    }
+}
