@@ -4,22 +4,12 @@
     padding-bottom: 25px;
 }
 
-@media (min-width: 1200px) {
-
+h1 {
+    font-size: $text-title-md;
 }
 
-// Medium Screen
-@media (max-width: 1200px) {
-
-}
-
-// Small Screen
-@media (max-width: 992px) { 
-
-}
-
-// Extra Small Screen
-@media (max-width: 768px) {
+// Small and Extra Small Screens
+@media (max-width: 992px) {
     .about {
         text-align: center;
         p {
