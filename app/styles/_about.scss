@@ -1,0 +1,29 @@
+.about {
+    background: $off-grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+// Medium Screen
+@media (max-width: 1200px) {
+
+}
+
+// Small Screen
+@media (max-width: 992px) { 
+
+}
+
+// Extra Small Screen
+@media (max-width: 768px) {
+    .about {
+        text-align: center;
+        p {
+            font-size: $text-sm;
+        }
+    }
+}
