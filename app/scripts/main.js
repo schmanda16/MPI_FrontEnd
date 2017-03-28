@@ -9,7 +9,15 @@ window.onload = function () {
         var src = list[i].getAttribute('data-image-src');
         list[i].style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(\'' + src + '\')';
     }
+
+    var list = document.getElementsByClassName('hero');
+    for (var i = 0; i < list.length; i++) {
+        var src = list[i].getAttribute('data-image-src');
+        list[i].style.backgroundImage = 'linear-gradient(rgba(0, 173, 238, 0.5),rgba(0, 173, 238, 0.5)),url(\'' + src + '\')';
+    }
 }
+
+$(function () { $("[data-toggle='tooltip']").tooltip(); });
 
 
 // $(function() {

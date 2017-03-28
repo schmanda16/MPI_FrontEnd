@@ -1,0 +1,83 @@
+.hero {
+    height: 420px;
+    text-align: center;
+
+    h2 {
+        font-family: 'MuseoSlab-500';
+        color: $white;
+        position: relative;
+        text-align: center;
+    }
+
+    p {
+        font-family: 'MuseoSans-300';
+        color: $white;
+        position: relative;
+        text-align: center;   
+    }
+
+    button {
+        position: relative;
+        text-align: center;
+    }
+}
+
+// Large Screen
+@media (min-width: 1200px) {
+    .hero {
+        h2 {
+            font-size: $text-title-lg;
+        }
+        p {
+            font-size: $text-xl;
+        }
+    }
+}
+
+// Medium Screen
+@media (max-width: 1200px) {
+    .hero {
+        h2 {
+            font-size: $text-title-lg;
+        }
+        p {
+            font-size: $text-xl;
+        }
+    }
+}
+
+// Small Screen
+@media (max-width: 992px) { 
+    .hero {
+        h2 {
+            font-size: $text-title-md;
+        }
+        p {
+            font-size: $text-lg;
+        }
+    }
+}
+
+// Somewhere In Between
+@media (max-width: 655px) {
+    .hero {
+        h2 {
+            font-size: $text-title-sm;
+        }
+        p {
+            font-size: $text-md;
+        }
+    }
+}
+
+// Extra Small Screen
+@media (max-width: 500px) {
+    .hero {
+        h2 {
+            font-size: $text-xl;
+        }
+        p {
+            font-size: $text-md;
+        }
+    }
+}
