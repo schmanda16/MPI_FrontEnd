@@ -1,0 +1,25 @@
+.call-to-action {
+    height: 338px;
+    color: $white;
+    background: $brand-blue;
+    background: -webkit-linear-gradient(left, #0072b9, #00b2eb);
+    background: -o-linear-gradient(left, #0072b9, #00b2eb);
+    background: -moz-linear-gradient(left, #0072b9, #00b2eb);
+    background: linear-gradient(left, #0072b9, #00b2eb);
+}
+
+@media (min-width: 768px){
+    .call-to-action .article {
+        font-size: $text-lg;
+    }
+}
+
+@media (max-width: 768px){
+    .call-to-action h1 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-xl;
+    }
+    .call-to-action .article p {
+        font-size: $text-md;
+    }
+}
