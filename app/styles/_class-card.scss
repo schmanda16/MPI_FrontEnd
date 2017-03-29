@@ -7,6 +7,10 @@
   border-top: solid 5px $brand-blue; 
 }
 
+.class-contents {
+    padding-top: 50px;
+}
+
 .mid h2 {
   a {
     font-family: 'MuseoSlab-500';
@@ -16,10 +20,7 @@
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
-  top: 50%;
-  left: 50%;
   font-size: $text-md;
-  transform: translate(-50%, -50%);
 }
 
 .mid p {
@@ -32,9 +33,6 @@
   padding-right: 10px;
   position: relative;
   margin: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1230px) {
@@ -49,14 +47,20 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .class-card {
     width: 230px;
+  }
+  .mid h2 {
+    font-size: $text-sm;
   }
 }
 
 @media (max-width: 600px) {
   .class-card {
     width: 175px;
+  }
+  .mid h2 {
+    font-size: $text-sm;
   }
 }
