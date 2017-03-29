@@ -1,0 +1,39 @@
+input {
+    font-family: 'MuseoSans-300';
+    border: solid 1px $light-grey;
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 10px;
+    color: $light-grey;
+    &:focus {
+        outline: none;
+    }
+}
+
+.login-email {
+    width: 330px;
+}
+
+.login-password {
+    margin: 0 auto;
+    width: 330px;
+    border: solid 1px $light-grey;
+    border-radius: 2px;
+    padding: 3px;
+    .form-control {
+        color: $light-grey;
+    }
+    input {
+        border: none;
+        box-shadow: none;
+        padding-left: 08px;
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .input-group-addon {
+        background: $white;
+        border: none;
+    }
+}

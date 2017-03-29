@@ -3,12 +3,17 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 @import "custom_variables.scss";
-@import "nav.scss";
-@import "whitespace.scss";
+
 @import "button.scss";
+@import "fonts.scss";
+@import "general.scss";
+@import "input.scss";
+@import "whitespace.scss";
+
+@import "about.scss";
+@import "class-card.scss";
+@import "content.scss";
+@import "hero.scss";
+@import "nav.scss";
 @import "news-card.scss";
 @import "news-sidebar.scss";
-@import "class-card.scss";
-@import "general.scss";
-@import "hero.scss";
-@import "about.scss";

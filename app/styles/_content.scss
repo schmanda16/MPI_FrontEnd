@@ -1,0 +1,25 @@
+.article {
+    font-family: 'MuseoSans-300';
+    font-size: $text-md;
+    line-height: 30px;
+}
+.quote {
+    font-family: 'MuseoSlab-300Italic';
+    font-size: $text-title-sm;
+
+    &.indented-quote {
+        margin-left: 30px;
+        padding-left: 12px;
+        border-left: solid 2px $off-grey;
+    }
+}
+.category {
+    font-family: 'MuseoSans-700';
+    font-size: $text-sm;
+    text-transform: uppercase;
+    color: $light-grey;
+}
+.byline {
+    font-family: 'MuseoSans-300';
+    font-size: $text-sm;
+}

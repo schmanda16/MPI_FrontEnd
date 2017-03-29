@@ -36,6 +36,48 @@
     }
 }
 
+.btn-facebook {
+    background-color: #3b5998;
+    font-family: 'MuseoSans-300';
+    color: $white;
+    border-radius: 2px;
+    width: 330px;
+    padding: 10px;
+
+    &:hover {
+        color: $white;
+        background-color: #26427E;
+    }
+}
+
+.btn-linkedin {
+    background-color: #007bb5;
+    font-family: 'MuseoSans-300';
+    color: $white;
+    border-radius: 2px;
+    width: 330px;
+    padding: 10px;
+
+    &:hover {
+        color: $white;
+        background-color: #006DA0;
+    }
+}
+
+.btn-login {
+    background-color: $off-grey;
+    font-family: 'MuseoSans-300';
+    color: $white;
+    border-radius: 2px;
+    width: 330px;
+    padding: 10px;
+
+    &:hover {
+        color: $white;
+        background-color: $lightest-grey;
+    }
+}
+
 // -------------- Custom Checkboxes and Radio Buttons ----------------
 
 label {
