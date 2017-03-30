@@ -57,7 +57,8 @@
     // overflow: hidden;
     // width: 100%;
     // text-align: center;
-    border: 1px solid $off-grey;
+    border-bottom: solid 1px $off-grey;
+    border-top: solid 5px $brand-blue;
   }
   .profile-picture {
       border-radius: 50%;

@@ -1,0 +1,16 @@
+.newsfeed-card {
+    border: solid 1px $off-grey;
+    border-top: solid 5px $brand-blue;
+
+    .tag-alert {
+        font-family: 'MuseoSans-300';
+        color: $dark-grey;
+    }
+    .tag-category {
+        font-family: 'MuseoSans-700';
+        color: $dark-grey;
+    }
+    hr {
+        margin: 5px 0 5px 0;
+    }
+}
