@@ -1,12 +1,16 @@
-.gray-line {
+.grey-line {
     width: 100%; 
-   text-align: center; 
-   border-bottom: 1px solid #e7e7e7;
-   line-height: 0.1em;
-   margin: 10px 0 20px; 
+    text-align: center; 
+    border-bottom: 1px solid #e7e7e7;
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
 }
 
-.gray-line span {
+.grey-line span {
     padding:0 30px; 
     background: white;
+}
+
+.grey-border {
+    border: solid 1px $lightest-grey;
 }
