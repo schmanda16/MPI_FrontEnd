@@ -50,6 +50,20 @@
     }
 }
 
+.btn-google {
+    background-color: #db5656;
+    font-family: 'MuseoSans-300';
+    color: $white;
+    border-radius: 2px;
+    padding: 10px;
+    // width: 330px;
+    width: 100%;
+    &:hover {
+        color: $white;
+        background-color: #e33333;
+    }
+}
+
 .btn-linkedin {
     background-color: #007bb5;
     font-family: 'MuseoSans-300';
