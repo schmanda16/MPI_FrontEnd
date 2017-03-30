@@ -23,6 +23,26 @@
     src: url('../fonts/Museo Slab/Museo_Slab_300italic.otf') format('opentype');
 }
 
+.sans-300 {
+    font-family: 'MuseoSans-300';
+}
+
+.sans-500 {
+    font-family: 'MuseoSans-500';
+}
+
+.sans-700 {
+    font-family: 'MuseoSans-700';
+}
+
+.slab-500 {
+    font-family: 'MuseoSlab-500';
+}
+
+.slab-300italic  {
+    font-family: 'MuseoSlab-300Italic';
+}
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon/icomoon.eot?8wdzuj');
