@@ -16,6 +16,12 @@ window.onload = function () {
         var rgba = heroList[i].getAttribute('data-color-src');
         heroList[i].style.backgroundImage = 'linear-gradient('+ rgba +',' + rgba + '),url(\'' + src + '\')';
     }
+
+    var headerImageList = document.getElementsByClassName('member-header-image');
+    for (var i = 0; i < headerImageList.length; i++) {
+        var src = headerImageList[i].getAttribute('data-image-src');
+        headerImageList[i].style.backgroundImage = 'url(\'' + src + '\')';
+    }
 }
 
 $(function () { $("[data-toggle='tooltip']").tooltip(); });

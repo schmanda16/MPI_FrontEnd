@@ -1,0 +1,67 @@
+@media (min-width: 769px) { 
+  .profile-card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    border: 1px solid $off-grey;
+  }
+  .profile-card * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+  }
+  .member-header-image {
+      height: 145px;
+  }
+  .profile-card .member-info {
+    width: 100%;
+    padding: 15px;
+    position: relative;
+  }
+  .profile-card .member-info:before {
+    position: absolute;
+    content: '';
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 30px 0 0 600px;
+    border-color: $white;
+  }
+  .profile-card .profile-picture {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100%;
+    right: 36%;
+    width: 80px;
+    border: 2px solid $off-grey;
+  }
+  .profile-card .progress {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      border-radius: 50px;
+      height: 10px;
+  }
+  .profile-card .progress-bar {
+      background-color: $brand-blue;
+      border-radius: 50px;
+      height: 10px;
+  }
+}
+
+
+@media (max-width: 768px) { 
+  .profile-card {
+    // position: relative;
+    // overflow: hidden;
+    // width: 100%;
+    // text-align: center;
+    border: 1px solid $off-grey;
+  }
+  .profile-picture {
+      border-radius: 50%;
+      width: 80px;
+      border: 2px solid $off-grey;
+    }
+}
