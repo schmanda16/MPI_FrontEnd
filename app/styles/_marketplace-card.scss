@@ -1,0 +1,24 @@
+.marketplace-card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    .category-badge {
+        font-family: 'MuseoSans-300';
+        position: absolute;
+        left: 25px;
+        top: 10px;
+        background: $light-grey;
+        text-align: center;
+        border-radius: 1px;
+        color: $white;
+        padding: 5px 10px;
+        font-size: $text-xxs;
+        text-transform: uppercase;
+    }
+}
+.marketplace-card * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}

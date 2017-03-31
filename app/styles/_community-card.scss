@@ -1,0 +1,19 @@
+.community-card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid $off-grey;
+    .community-image-container {
+        padding: 0px;
+        .community-image {
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+}
+.community-card * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
