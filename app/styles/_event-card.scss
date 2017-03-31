@@ -1,0 +1,34 @@
+.event-card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid $off-grey;
+    .date-box {
+        font-family: 'MuseoSans-700';
+        background-color: $off-grey;
+        text-align: center;
+        .month {
+            font-size: $text-xxs;
+            text-transform: uppercase;
+        }
+        .day {
+            font-size: $text-sm;
+        }
+    }
+    .date-details {
+        font-family: 'MuseoSans-500';
+        .title {
+            font-size: $text-sm;
+        }
+        .detail {
+            color: $light-grey;
+            font-size: $text-xxs;
+        }
+    }
+}
+.event-card * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
