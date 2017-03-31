@@ -16,13 +16,13 @@
         font-family: 'MuseoSans-300';
         color: $dark-grey;
         padding-right: 20px;
+        font-size: $text-xxs;
     }
     hr {
         margin: 5px 0 0 0;
     }
     p {
         font-family: 'MuseoSans-300';
-        font-size: $text-sm;
     }
 }
 
@@ -34,6 +34,47 @@
     width: 30px;
 }
 
-// .newsfeed-card .newsfeed-card-lg {
+.newsfeed-card-lg .img-circle {
+    width: 30px;
+}
 
-// }
+
+
+@media (min-width: 992px) {
+    p {
+        font-size: $text-sm;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 992px) { 
+    .tag-alert {
+        font-size: $text-xxs;
+    }
+    .tag-category {
+        font-size: $text-xxs;
+    }
+    h4 {
+        padding-right: 5px;
+    }
+    p {
+        font-size: $text-xs;
+        padding-bottom: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .tag-alert {
+        font-size: $text-xs;
+    }
+    .tag-category {
+        font-size: $text-xs;
+    }
+    p {
+        font-size: $text-sm;
+    }
+    .newsfeed-card-lg .newsfeed-image {
+        padding-top: 10px;
+    }
+}
