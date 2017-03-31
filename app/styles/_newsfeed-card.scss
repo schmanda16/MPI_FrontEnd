@@ -1,16 +1,39 @@
 .newsfeed-card {
     border: solid 1px $off-grey;
     border-top: solid 5px $brand-blue;
+    margin-bottom: 15px;
 
     .tag-alert {
         font-family: 'MuseoSans-300';
         color: $dark-grey;
+        padding-left: 20px;
     }
     .tag-category {
         font-family: 'MuseoSans-700';
         color: $dark-grey;
     }
+    .tag-share {
+        font-family: 'MuseoSans-300';
+        color: $dark-grey;
+        padding-right: 20px;
+    }
     hr {
-        margin: 5px 0 5px 0;
+        margin: 5px 0 0 0;
+    }
+    p {
+        font-family: 'MuseoSans-300';
+        font-size: $text-sm;
     }
 }
+
+.newsfeed-card-sm .newsfeed-image {
+    padding: 20px;
+}
+
+.newsfeed-card-sm .img-circle {
+    width: 30px;
+}
+
+// .newsfeed-card .newsfeed-card-lg {
+
+// }
