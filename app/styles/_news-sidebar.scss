@@ -1,6 +1,4 @@
 .news-sidebar {
-    background-color: $off-white;
-
     img {
         padding: 10px 0 10px 0;
     }
@@ -12,12 +10,22 @@
         text-transform: uppercase;
         padding: 12px 0 0 10px;
     }
+
+    $line-height: 24px;
+    $lines-to-show: 3;
     .sidebar-title {
         font-family: 'MuseoSlab-500';
         font-size: $text-md;
         padding: 0 0 0 10px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+        // Truncate text after second line
+        display: block; 
+        display: -webkit-box;
+        margin: 0 auto;
+        height: $line-height*$lines-to-show;
+        line-height: $line-height;
+        -webkit-line-clamp: $lines-to-show;
+        -webkit-box-orient: vertical;
         overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
