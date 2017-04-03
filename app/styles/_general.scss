@@ -79,6 +79,11 @@
     color: $light-grey;
 }
 
-* {
-    color: $darkest-grey;
+// Removing since it would override even child elements
+// * {
+//     color: $darkest-grey;
+// }
+
+body {
+    color: $darkest-grey !important;
 }
