@@ -1,0 +1,13 @@
+.ad-card {
+    font-family: 'MuseoSans-700';
+    text-transform: uppercase;
+    color: $light-grey;
+    border: solid 1px $off-grey;
+    margin-bottom: 15px;
+    text-align: center;
+
+    img {
+        padding: 5px 0 25px 0;
+        margin: 0 auto;
+    }
+}
