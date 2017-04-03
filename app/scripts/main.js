@@ -24,7 +24,7 @@ window.onload = function () {
     }
 }
 
-$(function () { $("[data-toggle='tooltip']").tooltip(); });
+$(function () { $('[data-toggle=\'tooltip\']').tooltip(); });
 
 
 // $(function() {

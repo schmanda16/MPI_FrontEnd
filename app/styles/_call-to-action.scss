@@ -2,10 +2,10 @@
     height: 338px;
     color: $white;
     background: $brand-blue;
-    background: -webkit-linear-gradient(left, #0072b9, #00b2eb);
-    background: -o-linear-gradient(left, #0072b9, #00b2eb);
-    background: -moz-linear-gradient(left, #0072b9, #00b2eb);
-    background: linear-gradient(left, #0072b9, #00b2eb);
+    background: -webkit-linear-gradient(to right, #0072b9, #00b2eb);
+    background: -o-linear-gradient(to right, #0072b9, #00b2eb);
+    background: -moz-linear-gradient(to right, #0072b9, #00b2eb);
+    background: linear-gradient(to right, #0072b9, #00b2eb);
 }
 
 @media (min-width: 768px){
