@@ -1,4 +1,14 @@
 .call-to-action {
+    height: 328px;
+    color: $white;
+    background: $brand-blue;
+    background: -webkit-linear-gradient(to right, #0072b9, #00b2eb);
+    background: -o-linear-gradient(to right, #0072b9, #00b2eb);
+    background: -moz-linear-gradient(to right, #0072b9, #00b2eb);
+    background: linear-gradient(to right, #0072b9, #00b2eb);
+}
+
+.call-to-action-padded {
     position: relative;
     height: 588px;
     margin-top: -250px;
@@ -15,6 +25,9 @@
     .call-to-action .article {
         font-size: $text-lg;
     }
+    .call-to-action-padded .article {
+        font-size: $text-lg;
+    }
 }
 
 @media (max-width: 768px){
@@ -23,6 +36,13 @@
         font-size: $text-xl;
     }
     .call-to-action .article p {
+        font-size: $text-md;
+    }
+    .call-to-action-padded h1 {
+        font-family: 'MuseoSlab-500';
+        font-size: $text-xl;
+    }
+    .call-to-action-padded .article p {
         font-size: $text-md;
     }
 }
