@@ -1,44 +1,176 @@
-.panel {
-    border-bottom-width: 3px;
-    border-bottom-color: $brand-green;
-    border-radius: 1px;
+.news-card-lg {
+    .panel {
+        border-bottom-width: 3px;
+        border-bottom-color: $brand-green;
+        border-radius: 1px;
+    }
+
+    .panel-category {
+        font-family: 'MuseoSans-700';
+        font-size: $text-sm;
+        font-weight: $bold;
+        text-transform: uppercase;
+        color: $light-grey;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    $line-height: 40px;
+    $lines-to-show: 2;
+    .panel-title {
+        font-family: 'MuseoSlab-500';
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: $text-title-md;
+        // Truncate text after second line
+        display: block; 
+        display: -webkit-box;
+        margin: 0 auto;
+        height: $line-height*$lines-to-show;
+        line-height: $line-height;
+        -webkit-line-clamp: $lines-to-show;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .panel-detail {
+        font-family: 'MuseoSans-300';
+        font-size: $text-sm;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .info-badge{
+        font-family: 'MuseoSlab-500';
+        position: absolute;
+        left: 25px;
+        top: 10px;
+        background: $brand-green;
+        text-align: center;
+        border-radius: 1px;
+        color: $white;
+        padding: 5px 10px;
+        font-size: $text-xs;
+    }
 }
 
-.panel-category {
-    font-family: 'MuseoSans-700';
-    font-size: $text-xxs;
-    font-weight: $bold;
-    text-transform: uppercase;
-    color: $light-grey;
+.news-card-md {
+    .panel {
+        border-bottom-width: 3px;
+        border-bottom-color: $brand-green;
+        border-radius: 1px;
+    }
+
+    .panel-category {
+        font-family: 'MuseoSans-700';
+        font-size: $text-xxs;
+        font-weight: $bold;
+        text-transform: uppercase;
+        color: $light-grey;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    $line-height: 28px;
+    $lines-to-show: 2;
+    .panel-title {
+        font-family: 'MuseoSlab-500';
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: $text-lg;
+        // Truncate text after second line
+        display: block; 
+        display: -webkit-box;
+        margin: 0 auto;
+        height: $line-height*$lines-to-show;
+        line-height: $line-height;
+        -webkit-line-clamp: $lines-to-show;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .panel-detail {
+        font-family: 'MuseoSans-300';
+        font-size: $text-sm;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .info-badge{
+        font-family: 'MuseoSlab-500';
+        position: absolute;
+        left: 25px;
+        top: 10px;
+        background: $brand-green;
+        text-align: center;
+        border-radius: 1px;
+        color: $white;
+        padding: 5px 10px;
+        font-size: $text-xs;
+    }
 }
 
-.panel-title {
-    font-family: 'MuseoSlab-500';
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: $text-lg;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
+.news-card-sm {
+    .panel {
+        border-bottom-width: 3px;
+        border-bottom-color: $brand-green;
+        border-radius: 1px;
+    }
 
-.panel-detail {
-    font-family: 'MuseoSans-300';
-    font-size: 12px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
+    .panel-category {
+        font-family: 'MuseoSans-700';
+        font-size: $text-xxs;
+        font-weight: $bold;
+        text-transform: uppercase;
+        color: $light-grey;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 
-.info-badge{
-    font-family: 'MuseoSlab-500';
-    position: absolute;
-    left: 25px;
-    top: 10px;
-    background: $brand-green;
-    text-align: center;
-    border-radius: 1px;
-    color: $white;
-    padding: 5px 10px;
-    font-size: $text-xs;
+    $line-height: 24px;
+    $lines-to-show: 2;
+    .panel-title {
+        font-family: 'MuseoSlab-500';
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: $text-md;
+        // Truncate text after second line
+        display: block; 
+        display: -webkit-box;
+        margin: 0 auto;
+        height: $line-height*$lines-to-show;
+        line-height: $line-height;
+        -webkit-line-clamp: $lines-to-show;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .panel-detail {
+        font-family: 'MuseoSans-300';
+        font-size: $text-sm;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .info-badge{
+        font-family: 'MuseoSlab-500';
+        position: absolute;
+        left: 25px;
+        top: 10px;
+        background: $brand-green;
+        text-align: center;
+        border-radius: 1px;
+        color: $white;
+        padding: 5px 10px;
+        font-size: $text-xs;
+    }
 }
