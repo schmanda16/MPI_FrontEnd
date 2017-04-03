@@ -69,3 +69,16 @@
         font-size: $text-xs;
     }
 }
+
+// Tooltips
+
+.tooltip-inner {
+    font-family: 'MuseoSans-500';
+    background: $white;
+    border: solid 1px $light-grey;
+    color: $light-grey;
+}
+
+* {
+    color: $darkest-grey;
+}
