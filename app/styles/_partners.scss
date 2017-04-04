@@ -1,0 +1,13 @@
+.partners {
+    .partner-logo {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) { 
+    .partners {
+        .partner-logo {
+            padding-top: 15px;
+        }
+    }
+}
