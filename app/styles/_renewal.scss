@@ -1,0 +1,23 @@
+.renewal {
+    background: $brand-blue;
+    font-family: 'MuseoSans-300';
+    color: $white;
+    font-size: $text-md;
+    a {
+        color: $white;
+    }
+}
+
+@media (min-width: 992px) { 
+    .renewal {
+        .renew-link {
+            float: right;
+        }
+    }
+}
+
+@media (max-width: 992px) { 
+    .renewal {
+        text-align: center;
+    }
+}
