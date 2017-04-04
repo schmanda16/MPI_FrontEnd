@@ -44,6 +44,14 @@ $border-grey: rgba(231, 231, 231, 1);
 .bg-off-white {background-color: $off-white !important;}
 .bg-white {background-color: $white !important;}
 
+.bg-blue-gradient {
+    background: $brand-blue;
+    background: -webkit-linear-gradient(to right, #0072b9, #00b2eb);
+    background: -o-linear-gradient(to right, #0072b9, #00b2eb);
+    background: -moz-linear-gradient(to right, #0072b9, #00b2eb);
+    background: linear-gradient(to right, #0072b9, #00b2eb);
+}
+
 // ---------- Text ----------
 $text-title-lg: 48px;
 $text-title-md: 38px;
