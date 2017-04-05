@@ -1,0 +1,43 @@
+.membership {
+    p {
+        font-family: 'MuseoSans-300';
+    }
+    .nav-tabs {
+        .membership-tab {
+            width: 25%;
+            font-family: 'MuseoSlab-500';
+            background: $off-grey;
+            a {
+                color: $darkest-grey;
+                border-radius: 0px;   
+            }
+            // &.active {
+            //     border-top: solid 5px $brand-green;
+            // }
+        }
+    }
+    .tab-content {
+        background: $white;
+        border-right: solid 1px $off-grey;
+        border-left: solid 1px $off-grey;
+        border-bottom: solid 1px $off-grey;
+        table {
+            table-layout: fixed;
+            margin-bottom: 0px;
+        }
+        li {
+            font-family: 'MuseoSans-300';
+            text-align: left;
+        }
+        .currency-sign {
+            font-family: 'MuseoSlab-500';
+            font-size: $text-title-sm;
+            color: $lightest-grey;
+            padding-right:3px;
+        }
+        .currency-amount {
+            font-family: 'MuseoSlab-500';
+            font-size: $text-title-md;
+        }
+    }
+}
