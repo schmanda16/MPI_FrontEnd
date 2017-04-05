@@ -1,5 +1,5 @@
 .call-to-action {
-    height: 328px;
+    min-height: 328px;
     color: $white;
     background: $brand-blue;
     background: -webkit-linear-gradient(to right, #0072b9, #00b2eb);
@@ -10,7 +10,7 @@
 
 .call-to-action-padded {
     position: relative;
-    height: 588px;
+    min-height: 588px;
     margin-top: -250px;
     padding-top: 250px;
     color: $white;
