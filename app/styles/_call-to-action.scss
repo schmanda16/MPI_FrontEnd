@@ -1,11 +1,6 @@
 .call-to-action {
     min-height: 328px;
     color: $white;
-    background: $brand-blue;
-    background: -webkit-linear-gradient(to right, #0072b9, #00b2eb);
-    background: -o-linear-gradient(to right, #0072b9, #00b2eb);
-    background: -moz-linear-gradient(to right, #0072b9, #00b2eb);
-    background: linear-gradient(to right, #0072b9, #00b2eb);
 }
 
 .call-to-action-padded {
@@ -14,11 +9,6 @@
     margin-top: -250px;
     padding-top: 250px;
     color: $white;
-    background: $brand-blue;
-    background: -webkit-linear-gradient(to right, #0072b9, #00b2eb);
-    background: -o-linear-gradient(to right, #0072b9, #00b2eb);
-    background: -moz-linear-gradient(to right, #0072b9, #00b2eb);
-    background: linear-gradient(to right, #0072b9, #00b2eb);
 }
 
 @media (min-width: 768px){
